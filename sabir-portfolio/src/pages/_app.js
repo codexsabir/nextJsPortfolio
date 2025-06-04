@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
-import '../styles/globals.css';
+import '../app/globals.css';
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
