@@ -62,7 +62,7 @@ const Hero = () => {
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-cyan-500/30">
               <img
-                src="../assets/sabir2 (1).png"
+                src="../assets/sabir.png"
                 alt="Sabir Ud Din"
                 className="w-full h-full object-cover"
               />

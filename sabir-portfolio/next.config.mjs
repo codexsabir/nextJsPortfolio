@@ -16,6 +16,49 @@ const nextConfig = {
             port: '',
             pathname: '/images/**',
         },
+        {
+            protocol: 'https',
+            hostname: 'sabir-portfolio.vercel.app',
+            port: '',
+            pathname: '/**',
+        },
+        {
+            protocol: 'https',
+            hostname: 'sabir-portfolio.vercel.app',
+            port: '',
+            pathname: '/assets/**',
+        },
+        {
+            protocol: 'https',
+            hostname: 'sabir-portfolio.vercel.app',
+            port: '',
+            pathname: '/images/**',
+        },
+        {
+            protocol: 'https',
+            hostname: 'sabir-portfolio.vercel.app',
+            port: '',
+            pathname: '/favicon.ico',
+        },
+        {
+            protocol: 'https',
+            hostname: 'sabir-portfolio.vercel.app',
+            port: '',
+            pathname: '/favicon.png',
+        },
+        {
+            protocol: 'https',
+            hostname: 'sabir-portfolio.vercel.app',
+            port: '',
+            pathname: '/favicon.svg',
+        },
+        {
+            protocol: 'https',
+            hostname: 'sabir-portfolio.vercel.app',
+            port: '',
+            pathname: '/assets/hero-bg.mp4',
+        },
+        
         ],
     },
     experimental: {
