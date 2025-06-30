@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { fadeIn, slideInFromLeft, slideInFromRight, slideInFromBottom } from '../utils/animations';
 import { AnimatedText } from '../utils/animations';
-
+import Image from 'next/image';
 const Hero = () => {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -61,10 +61,12 @@ const Hero = () => {
             className="md:w-1/2 flex justify-center"
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-cyan-500/30">
-              <img
-                src="../assets/sabir.png"
+              <Image
+                src="/assets/sabir.png"
                 alt="Sabir Ud Din"
                 className="w-full h-full object-cover"
+                width={320}
+                height={320}
               />
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/70"></div>
             </div>
