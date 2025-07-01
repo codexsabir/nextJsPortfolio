@@ -75,6 +75,7 @@ export const experiences = [
   }
 ];
 
+
 export const education = [
   {
     degree: 'BSCS',
