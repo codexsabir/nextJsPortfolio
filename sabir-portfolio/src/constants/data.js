@@ -3,7 +3,6 @@ export const navLinks = [
   { name: 'About', path: '#about' },
   { name: 'Skills', path: '#skills' },
   { name: 'Experience', path: '#experience' },
-  { name: 'Education', path: '#education' },
   { name: 'Contact', path: '#contact' },
 ];
 
